@@ -30,9 +30,9 @@ function SearchForm({ handleSearch, setPreloader, setIsChecked, isLoading }) {
     return (
         <section className="search">
             <div className="search__container">
-                <form className="search__form" onSubmit={handleSubmit}>
+                <form className="search__form" onSubmit={handleSubmit} required>
                     <div className="search__container-input-box">
-                    <img src={searchIcon} className="search__icon"></img>
+                    <img src={searchIcon} alt="иконка-поиска" className="search__icon"></img>
 
                     <input
                         className="search__input"
@@ -56,9 +56,10 @@ function SearchForm({ handleSearch, setPreloader, setIsChecked, isLoading }) {
                         disabled={!isValid}
                     >Найти</button>
                 </form>
+                <span className="search__input-error">{errors.keyword}</span>
+
                 <ToggleSwitch onCheckboxToggle={onCheckboxToggle} />
             </div>
-            <span className="search__input-error">{errors.keyword}</span>
         </section>
     );
 }
