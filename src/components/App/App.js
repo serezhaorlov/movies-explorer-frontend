@@ -262,11 +262,6 @@ function App() {
     }
 
     function checkBookmarkStatus(movie) {
-        console.log(movie)
-        console.log(savedMovies)
-        console.log(savedMovies.map(
-            (savedMovie) => console.log(savedMovie.movieId)
-        ))
         return savedMovies.some(
             (savedMovie) => savedMovie.movieId === movie.movieId
         ); 
