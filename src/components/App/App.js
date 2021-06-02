@@ -33,10 +33,10 @@ import {
 import { DURATION_FOR_SORTING_SHORT_FILM } from "../../utils/constants";
 
 /* как запустить проект:
-    1. клонировать бэк с репо https://github.com/serezhaorlov/movies-explorer-api
+    1. клонировать бэк с репо https://github.com/serezhaorlov/movies-explorer-api (был обновлен для корректного отображения)
     2. в app.js в кнонированном репо изменить PORT (13-я строчка в коде) с 3000 на 3001
     3. npm start
-    4. склонировать фронт с репо https://github.com/serezhaorlov/movies-explorer-frontend с ветки dev
+    4. склонировать фронт с репо https://github.com/serezhaorlov/movies-explorer-frontend с ветки dev (так же был обновлен)
     5. npm start после регистрации и логина перейти на вкладку с поиском, добавить фильм, и после карточка с фильмом отобразится в сохраненных фильмах
 */
 
