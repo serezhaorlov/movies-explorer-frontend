@@ -1,4 +1,4 @@
-# как запустить проект:
+# как запустить проект: (проект уже на  сервере!!!  https://so-diploma-frontend.nomoredomains.icu/   !!!)
    ### 1. клонировать бэк с репо https://github.com/serezhaorlov/movies-explorer-api (был обновлен для корректного отображения карточек для ревью) (!!!!) 
    ### git clone --branch main https://github.com/serezhaorlov/movies-explorer-api.git
 
