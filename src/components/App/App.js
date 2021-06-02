@@ -270,9 +270,9 @@ function App() {
     }
 
     function checkBookmarkStatus(movie) {
-        return savedMovies.some(
-            (savedMovie) => savedMovie.movieId === movie.movieId
-        ); 
+            return savedMovies.some(
+                savedMovie => savedMovie.movieId === movie.movieId 
+            );         
     }
 
     function toggleMovieLike(movie, isLiked) {

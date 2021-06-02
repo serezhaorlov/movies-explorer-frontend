@@ -5,7 +5,6 @@ function MoviesCards({ movie, onLikeClick, checkBookmarkStatus}) {
     const { nameEN, duration, image, trailer } = movie;
 
     const isLiked = checkBookmarkStatus(movie);
-
     const durationConverter = (duration) => {
         const hours = Math.floor(duration / 60);
         const minutes = duration % 60;
